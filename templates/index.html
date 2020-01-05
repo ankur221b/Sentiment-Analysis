@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="https://kit.fontawesome.com/8327b10ac1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="loginbox">
+
+	<h1 class="heading">Login</h1>
+
+	<form action="{{ url_for('login') }}", method="post">
+  
+  	<div class="textbox">
+      <i class="fas fa-user"></i>
+      <input type="text" placeholder="username" name="username">
+      <br>
+    </div>
+
+    <div class="textbox">
+      <i class="fas fa-key"></i>
+      <input type="password" placeholder="password" name="password">
+      <br><br>
+
+    </div>
+
+    <input class="btn" type="submit" value="Log in">
+    </form> 
+
+<div class="signup">
+	Don't have a account? <a href="/create" style="text-decoration: none; color: white">Sign up</a>
+</div>
+
+<div>
+	{% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+    {% endif %}
+</div>
+
+</div>
+
+</body>
+</html>

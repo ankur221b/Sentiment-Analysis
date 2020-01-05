@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="https://kit.fontawesome.com/8327b10ac1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	{% if user %}<p class="user">Username : {{username}}</p>{% endif %}
+	<div><a class="logout" href="/logout">Log_out</a></div>
+	
+	<div class="title">Sentiment Analysis</div>
+	<div class="text">
+		<i class="fas fa-keyboard"></i>
+		<form action="/home" method="POST">
+			<textarea type="text" placeholder="type here" name="text"></textarea>
+			<input class="subbtn" type="submit" value="Submit">
+		</form>
+
+		<div>
+			{% if result %}
+        		<p class="result">{{ result }}
+    		{% endif %}
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>

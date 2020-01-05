@@ -1,0 +1,136 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body
+{
+	background-color: black;
+}
+
+.loginbox
+{
+	top:25%;
+	left:40%; 
+	width:280px;
+	position: absolute;
+}
+
+.heading
+{
+	color: white;
+	left:45%;
+	top:25%;
+	font-size: 40px;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #31bbe2;
+	padding-left: 15px;
+	margin-left:10px;
+	margin-right: -10px;
+}
+
+.textbox
+{
+	width:100%;
+	font-size: 10px;
+	padding:8px;
+	margin: 8px;
+	border-bottom: 1px solid #31bbe2;
+	padding-left: inherit;
+}
+.textbox i
+{
+	width: 30px;
+	text-align: center;
+	font-size: medium;
+	color: white;
+
+}
+
+.textbox input
+{
+	border:none;
+	outline: none;
+	background: none;
+	font-size: x-small;
+	color: white;
+}
+.btn
+{
+	color: white;
+	width: 100%;
+	background: none;
+	border: 2px solid #31bbe2;
+	padding: 5px;
+	font-size: 20px;
+	margin:10px;
+	cursor: pointer;
+}
+.signup
+{
+	color: white;
+	margin: 5px;
+	width: 105%;
+}
+
+.error
+{
+	color: white;
+	text-align: center;
+}
+.title
+{
+	font-size: xx-large;
+	color: white;
+	text-align: center;
+
+}
+.logout
+{
+	text-align: right;
+	color: white;
+	margin-right: 30px;
+	text-decoration: none;
+}
+.text
+{
+	top:25%;
+	left:40%; 
+	width:300px;
+	position: absolute;
+	font-size: 10px;
+	padding:8px;
+	margin: 8px;
+	padding-left: inherit;
+}
+.text i
+{
+	color: white;
+	font-size: large;
+}
+.text textarea
+{
+	width: 100%;
+	margin-top: 15px;
+	height: 60px;
+}
+.subbtn
+{
+	color: white;
+	width: 100%;
+	background: none;
+	border: 2px solid #31bbe2;
+	padding: 5px;
+	font-size: 20px;
+	margin:10px;
+	cursor: pointer;
+	margin-left: 0px;
+
+}
+.user
+{
+	color: white;
+}
+.result
+{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+}
